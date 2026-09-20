@@ -1,0 +1,17 @@
+[project]
+name = "rag-onet"
+version = "0.1.0"
+description = "RAG system for exploring O*NET occupations and required skills"
+authors = [
+    {name = "Juan Felipe Pinzón Laverde",email = "juanfelipepinzonlaverde@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "pandas (>=3.0.5,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
